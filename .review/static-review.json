@@ -1,0 +1,66 @@
+{
+  "generator": "repository-static-triage",
+  "version": "1.0",
+  "repository": "vikasdotvivek/yo-world",
+  "revision": "5acda346df82c6c1a914c1e7ff37d6376fffe333",
+  "tracked_files": 9,
+  "scanned": [
+    {
+      "path": "TimeTablePython/main.py",
+      "lines": 31,
+      "bytes": 1279
+    },
+    {
+      "path": "main.py",
+      "lines": 32,
+      "bytes": 1313
+    }
+  ],
+  "skipped": [
+    {
+      "path": ".github/workflows/code-improvement-review.yml",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": ".gitignore",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "README.md",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "TimeTablePython/README.md",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "factorial cpp.txt",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "fdj;gnejgnerjgn vdkjre",
+      "reason": "non-source format; content not audited"
+    },
+    {
+      "path": "fibonacci.txt",
+      "reason": "non-source format; content not audited"
+    }
+  ],
+  "manifests": [],
+  "conventional_test_paths": [],
+  "findings": [
+    {
+      "rule": "python3-parse",
+      "priority": "P1",
+      "path": "main.py",
+      "line": 19,
+      "title": "Does not parse with the audit runner Python 3",
+      "recommendation": "Confirm the intended Python version. This may be legacy Python 2 rather than an unintended syntax error; compile with the supported interpreter.",
+      "status": "review-required",
+      "source": "https://github.com/vikasdotvivek/yo-world/blob/5acda346df82c6c1a914c1e7ff37d6376fffe333/main.py#L19"
+    }
+  ],
+  "total_findings": 1,
+  "findings_omitted": 0,
+  "execution": "No repository code, tests, builds or hardware were executed."
+}
